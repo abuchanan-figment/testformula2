@@ -9,7 +9,7 @@ class Andrewtest < Formula
         bin.install Dir["*"]
         Dir["#{bin}/*"].each do |f|
         system "codesign", "--force", "--sign", "-", f if File.file?(f)
-        system "docker", "compose", "up", "-d"
+        system "/opt/homebrew/bin/docker", "compose", "up", "-d"
         end
         
     
