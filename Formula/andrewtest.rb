@@ -10,7 +10,7 @@ class Andrewtest < Formula
         Dir["#{bin}/*"].each do |f|
         system "codesign", "--force", "--sign", "-", f if File.file?(f)
         end
-        system "docker compose -d"
+        system "docker", "compose", "up", "-d"
     
       end
 
