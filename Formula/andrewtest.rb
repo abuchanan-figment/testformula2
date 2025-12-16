@@ -1,7 +1,7 @@
 class Andrewtest < Formula
     desc "Command and Control"
     homepage "https://github.com/werdhaihai/"
-    url "https://github.com/abuchanan-figment/testformula2/releases/download/v1.33.7/andrewtest-1.33.7.tar.gz"
+    url "https://github.com/abuchanan-figment/testformula2/releases/download/1.33.7/andrewtest-1.33.7.tar.gz"
     sha256 "a06ab8c8c548169e5b299b7e807b110b5b1ace74f9044e7a3db8f54c0653df53"
     version "1.33.7"
 
