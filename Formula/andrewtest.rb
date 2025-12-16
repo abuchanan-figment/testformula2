@@ -10,26 +10,8 @@ class Andrewtest < Formula
         Dir["#{bin}/*"].each do |f|
         system "codesign", "--force", "--sign", "-", f if File.file?(f)
         end
-        system "d"
-    system "o"
-    system "c"
-    system "k"
-    system "e"
-    system "r"
-    system " "
-    system "c"
-    system "o"
-    system "m"
-    system "p"
-    system "o"
-    system "s"
-    system "e"
-    system " "
-    system "u"
-    system "p"
-    system " "
-    system "-"
-    system "d"
+        system "docker", "compose", "-d"
+    
       end
 
     def caveats
